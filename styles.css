@@ -103,3 +103,43 @@ footer {
   color: white;
   background-color: #1f2937;
 }
+
+/* HTML/tag selector: styles every paragraph */
+p {
+  line-height: 1.6;
+}
+
+/* Class selector: styles elements with class="section-title" */
+.section-title {
+  color: #1f2937;
+}
+
+/* ID selector: styles your contact form */
+#contact-form {
+  max-width: 500px;
+}
+
+/* Combined tag + class selector */
+p.project-description {
+  color: #4b5563;
+}
+
+/* Attribute selector: styles only text inputs */
+input[type="text"] {
+  border: 2px solid #1f2937;
+}
+
+/* Attribute selector: styles only email inputs */
+input[type="email"] {
+  border: 2px solid #1f2937;
+}
+
+/* Child selector: selects only navigation links in nav-list items */
+.nav-list > li > a {
+  font-weight: bold;
+}
+
+/* Adjacent selector: selects a paragraph immediately after an h1 */
+h1 + p {
+  margin-top: 0;
+}
